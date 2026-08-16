@@ -59,6 +59,7 @@ Requirements: `bash`, `curl`, `unzip`, `xz`, `make`, `git`, and a C toolchain.
 Termux:
 
 ```bash
+wget https://github.com/Lamprozx/ffmpeg-minimal/releases/download/v1.0.0/ffmpeg-min-arm64
 cp ffmpeg-min-arm64 "$PREFIX/bin/ffmpeg"
 chmod +x "$PREFIX/bin/ffmpeg"
 ffmpeg -version
@@ -67,6 +68,7 @@ ffmpeg -version
 VPS / Linux:
 
 ```bash
+wget https://github.com/Lamprozx/ffmpeg-minimal/releases/download/v1.0.0/ffmpeg-min-linux-amd64
 cp ffmpeg-min-linux-amd64 /usr/local/bin/ffmpeg
 ```
 
